@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(213, 213, 213);
+  box-shadow: 0px 0px 16px -6px rgba(213, 213, 213, 1);
+}
+.name {
+  color: rgb(148, 148, 148);
+  margin-left: 13px;
+}
+
+.status {
+  margin: 0 13px;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 50px;
+  background-color: rgb(242, 242, 242);
+}
